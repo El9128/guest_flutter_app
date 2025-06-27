@@ -1,0 +1,17 @@
+name: guest_voice_translator
+description: A voice translator app for X Spaces named GUEST.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.1.1
+  translator: ^0.1.7
+  flutter_tts: ^3.5.2
+
+flutter:
+  uses-material-design: true
